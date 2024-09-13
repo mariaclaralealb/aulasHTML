@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;   
+    text-transform: uppercase;
+}
+
+.pad {
+    padding-top: 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 4px;
+}
+
+.image {
+    border-radius: 8px;
+}
+
+.size1 {
+    width: 400px;
+    height: 400px;
+}
+
+.size2 {
+    width: 200px;
+    height: 200px;
+}
+
+.size3 {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo {
+    background-color: whitesmoke;
+}
+
+.container {
+    margin: 5px;
+    padding: 5px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: stretch;
+}
