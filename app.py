@@ -4,7 +4,10 @@ app = Flask(__name__)
 
 @app.route("/", methods=('GET',))
 def index():
-    return "<h1>Página inicial</h1><p>Eu sou Maria Clara</p>"
+    nome = 'Maria Clara'
+    return f """<h1>Página inicial</h1>
+        <p>Olá  {nome}, que nome bonito!
+    """
 
 @app.route("/galeria", methods=('GET',))
 def galeria():
